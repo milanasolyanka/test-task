@@ -1,5 +1,6 @@
 import React from "react";
-import { ICard } from "../models";
+import { ICard } from "../../models";
+import "./card.css";
 
 //вот этот ICard в качестве пропса может не робить, проверить
 export const Card: React.FC<ICard> = (ICard) => {

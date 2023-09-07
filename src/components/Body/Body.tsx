@@ -1,4 +1,5 @@
 import React from "react";
+import "./body.css";
 
 type IBody = {
   bodyContent: React.ReactNode;

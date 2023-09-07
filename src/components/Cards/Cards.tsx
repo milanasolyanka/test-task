@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
-import { Card } from "./Card";
-import { data } from "../data/data";
+import { Card } from "../Card/Card";
+import { data } from "../../data/data";
+import "./cards.css";
 
 type ICards = {};
 
@@ -15,7 +15,6 @@ export const Cards: React.FC<ICards> = () => {
           url={dataCard.url}
           thumbnailUrl={dataCard.thumbnailUrl}
         />
-        
       ))}
     </div>
   );
