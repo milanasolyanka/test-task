@@ -1,5 +1,5 @@
 import React from "react";
-import "./body.css";
+import "./body.scss";
 
 type IBody = {
   bodyContent: React.ReactNode;

@@ -1,6 +1,6 @@
 import { Card } from "../Card/Card";
 import { data } from "../../data/data";
-import "./cards.css";
+import "./cards.scss";
 
 type ICards = {};
 
