@@ -1,0 +1,33 @@
+@import "../../styles/colors.scss";
+
+.pagination-container {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+
+  .pagination-bar {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    //width: 400px;
+
+    .pagination-element {
+      border: solid $color-white;
+      border-radius: 10px;
+      height: 40px;
+      width: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $color-black;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 20px;
+    }
+
+    .pagination-element:hover {
+      background-color: $color-white;
+      cursor: pointer;
+    }
+  }
+}

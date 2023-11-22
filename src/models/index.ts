@@ -5,3 +5,11 @@ export type ICard = {
   url: string;
   thumbnailUrl: string;
 };
+
+export type IPagination = {
+  cardsPerPage: number;
+  totalCards: number;
+  paginate: (pageNumber: number) => void;
+  previousPage: () => void;
+  nextPage: () => void;
+};
